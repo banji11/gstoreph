@@ -1,0 +1,92 @@
+.modal-container{
+    display: none; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 91.5%;
+    width: 95.8%;
+    padding: 2rem;
+    overflow: auto;
+    background-color: rgba(128, 128, 128, 0.601);
+}
+.form p{
+    display: grid;
+    grid-template-columns: repeat(2,190px);
+    padding: 0;
+}
+
+.modal-content{
+    position: relative;
+    top: 4rem;
+    left: 33rem;
+    background-color: #f9eae0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    width: 28rem;
+    height: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.exit-button{
+    padding: 8px 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.exit-button:hover{
+    background-color: rgb(179, 128, 128);
+}
+
+
+.pos-absolute{
+    position: absolute;
+    right: 0;
+    top: 0;;
+}
+.button{
+    /* margin-top: 1em; */
+    margin-left: 28em;
+    size: 18px;
+    border: none;
+    color:black;
+    border-radius: 10px;
+    font-size: 14px;
+    size: 7%; 
+    background-color: #c59e6d;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.labels{
+    text-align: left;
+}
+.labelss{
+    font-size: 14px;
+    text-align: left;
+}
+.inputs{
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 110%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.edit button{
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    padding: .3rem;
+    font-size: 15px;
+    background-color: #c59e6d ;
+    font-family: 'Times New Roman', Times, serif;
+}

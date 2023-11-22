@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.tablelist p{
+  margin-left: 30rem;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: #EEE7DE  ;
+
+    width: 30%;
+    margin-top: 1em;
+    margin-left: 13em;
+  }
+  
+  th {
+    background-color: rgba(227, 219, 211, 0.719);
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  td {
+    text-align: left;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+  }
+  button{
+    margin-left: 13rem;
+  }
+  

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5ddcb ;
+    height: 100%;
+}
+.head h2{
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#BC7B6A;
+
+}
+.head p{
+    margin-top:0px;
+    font-size: 25px;
+    text-align: center;
+    background-color:#BC7B6A; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile{
+    /* position: relative;
+    top: 2rem;
+    left: 2.5rem; */
+    border: 2px solid black;
+    aspect-ratio: 1;
+    width: 100px;
+    /* height: 80px; */
+    border-radius: 3.5rem;
+    z-index: 2; 
+}
+.profile-holder{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.profile-holder p{
+    margin-top: 9rem;
+    z-index: 9999;
+    font-size: 16px;
+    position: fixed;
+}
+
+.nav-content{
+    background-color: #cb988b ;
+    display: flex;
+    position: absolute;
+    width: 240px;
+    padding-inline-start: 10px 15px;
+    border: 1px solid rgb(169, 143, 143);
+}
+
+.lists{
+    list-style-type: none;
+    margin-top: 2px;
+    padding-top: 11%;
+	position: fixed;
+	width: 241px;
+	height: 100%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    background-color:#cb988b ;
+    font-size: 17px;
+    
+}
+
+.lists a{
+    display: block;
+    color: #000;
+    padding: 1rem;
+    text-decoration: none;
+    border-bottom: 1px solid#f8f2f0;
+    width: 200px;
+    margin-left: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lists a:hover:not(.active){
+    display: block;
+    background-color: #eab995;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#f5ddcb;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px #eac0b4;
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: .6rem;
+}
+.dropdown {
+    position: relative;
+    display: block;
+    width: fit-content;
+  }
+.dropbtn {
+    background-color:#cb988b;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    background-color: #f5ddcb;
+    position: relative;
+  }
+  .dropdown-content a:hover 
+  {background-color:  #88491a}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color:  #88491a;
+  }
+  
+  
