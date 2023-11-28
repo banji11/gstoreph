@@ -67,18 +67,19 @@
                     <td> ".  $row["Item_Name"] ." </td>
                     <td> ".  $row["Quantity"] ." </td>
                     <td> ".  $row["Expiration_Date"] ." </td>
-                    <td> <button> Edit </button> <button formaction='del.php'> Delete </button> </td>
+                    <td>
+                    <form action='' method='post'>
+                    <input type = 'submit' name = 'edit' value = 'EDIT'>
+                    </form>
+
+                    <form action='delfrozengoods.php' method='post'>
+                    <input type = 'submit' name = 'delete' value = 'DELETE'>
+                    <input type = 'hidden' name = 'toDelete' value = '" . $row["Item_Name"] . "'>
+                    </form> 
+                    </td>
                 </tr>";
                 }
             ?>
-            <!-- <tr>
-                <td>  </td>
-                <td>  </td>
-                <td>  </td>
-                <td>  </td>
-                <td> <button> Edit </button> <button> Delete </button> </td>
-            </tr> -->
-           
         </table>
         </div>
         <div id="modal" class="modal-container">
